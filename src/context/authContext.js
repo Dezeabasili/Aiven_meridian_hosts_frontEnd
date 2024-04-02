@@ -4,7 +4,7 @@ const AuthContext = createContext()
 
 // export const baseURL = "http://localhost:4000/"
 // export const baseURL = "https://mysql-meridian-hosts-backend.onrender.com/"
-export const baseURL = "https://aiven-meridian-hosts-server.onrender.com"
+export const baseURL = "https://aiven-meridian-hosts-server.onrender.com/"
 
 export const useAuthContext = () => {
     return useContext(AuthContext)
